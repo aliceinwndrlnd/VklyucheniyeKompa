@@ -22,17 +22,13 @@ public class Main {
  mine.cpu = 4500;
  mine.ram = 8;
  mine.hardd = 256;
- mine.cycle = 1000;
+ mine.cycle = 10;
 
  mine.description();
 
  mine.switchon();
+ for (int i = 0;i<11;i++);
 
  mine.switchoff();
-
- System.out.println();
-
- mine.lifecycle(1001);
-
     }
 }
